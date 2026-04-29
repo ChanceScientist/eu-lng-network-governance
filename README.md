@@ -34,6 +34,13 @@ All Python scripts in this repository were drafted with assistance from Microsof
 - attribution_indicator_range.py
 - attribution_scoring_mechanisms.py
 
+### Supporting Tools
+The `tools/` directory contains helper modules used throughout the pipeline
+(e.g., period extraction, graph loading, structural metrics, integrity checks,
+and attribution utilities). These scripts are imported by the main pipeline
+stages and are required for full reproducibility, but they are not intended to
+be run directly.
+
 ---
 
 ## 3. Installation / Environment Setup
