@@ -1,5 +1,7 @@
 # README
 
+**DOI:** https://doi.org/10.5281/zenodo.19924877
+
 ## 1. Project Overview
 This repository contains a full computational pipeline for constructing, validating, and interpreting monthly EU‑27 LNG trade networks using UN Comtrade data (HS 271111). The pipeline ingests raw monthly CSVs, standardizes and cleans flows, builds directed weighted graphs, normalizes structural metrics, detects structural breaks, and produces governance‑oriented summaries and visualizations.
 
