@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "eu-lng-network-governance: Python scripts for EU LNG Network Analysis"
+version: "1.0.0"
+doi: "10.5281/zenodo.19924877"
+date-released: "2026-04-30"
+authors:
+  - family-names: "Roy"
+    given-names: "Jeremy"
+license: "MIT License"
+repository-code: "https://github.com/ChanceScientist/eu-lng-network-governance"
+abstract: >
+  This release provides the complete reproducible workflow for constructing,
+  normalizing, and analyzing the EU LNG trade network (2015–2025). The pipeline
+  includes temporal network construction, normalization of directed weighted
+  graphs, structural and flow-based metrics, Louvain community detection,
+  adjacent-period community matching, transition matrices, stability indices,
+  structural signatures, governance indicators, and visualization scripts.
+  Raw UN Comtrade data are not bundled with this release due to licensing
+  restrictions; users must download the relevant monthly trade flow files
+  (HS 271111, EU-27 reporters) directly from the UN Comtrade Database and place
+  them in the data_raw/ directory.
+message: >
+  If you use this work, please cite this release using the
+  metadata provided here or the DOI assigned via Zenodo.
